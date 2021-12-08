@@ -1,0 +1,47 @@
+(array([0., 1.]), array([1997, 2869]))
+(array([0., 1.]), array([510, 707]))
+ SVC   &          & 0 & 0.9302 & 0.9407 & 0.9297 \\
+ KNN   & max_depth=2 & 0 & 0.3698 & 0.4012 & 0.3545 \\
+ KNN   & max_depth=3 & 0 & 0.4873 & 0.5655 &  0.56  \\
+ KNN   & max_depth=5 & 0 & 0.9737 & 0.9782 & 0.9903 \\
+ kNN   & max_depth=7 & 0 & 0.9729 & 0.9775 & 0.989  \\
+RandomForest & max_depth=2 & 0 & 0.9762 & 0.9803 & 0.9945 \\
+RandomForest & max_depth=3 & 0 & 0.9762 & 0.9803 & 0.9945 \\
+RandomForest & max_depth=5 & 0 & 0.9762 & 0.9803 & 0.9945 \\
+RandomForest & max_depth=7 & 0 & 0.9762 & 0.9803 & 0.9945 \\
+ SVC   &          & 1 & 0.8792 & 0.8905 & 0.8283 \\
+ KNN   & max_depth=2 & 1 & 0.4511 & 0.5194 &  0.5   \\
+ KNN   & max_depth=3 & 1 & 0.5267 & 0.6119 & 0.6288 \\
+ KNN   & max_depth=5 & 1 & 0.9778 & 0.9816 & 0.9986 \\
+ kNN   & max_depth=7 & 1 & 0.9770 & 0.9809 & 0.9972 \\
+RandomForest & max_depth=2 & 1 & 0.9786 & 0.9823 &  1.0   \\
+RandomForest & max_depth=3 & 1 & 0.9786 & 0.9823 &  1.0   \\
+RandomForest & max_depth=5 & 1 & 0.9786 & 0.9823 &  1.0   \\
+RandomForest & max_depth=7 & 1 & 0.9786 & 0.9823 &  1.0   \\
+ SVC   &          & 2 & 0.9466 & 0.9538 & 0.9477 \\
+ KNN   & max_depth=2 & 2 & 0.3541 & 0.3879 & 0.3517 \\
+ KNN   & max_depth=3 & 2 & 0.4166 & 0.4787 & 0.4605 \\
+ KNN   & max_depth=5 & 2 & 0.9762 & 0.9798 & 0.9944 \\
+ kNN   & max_depth=7 & 2 & 0.9737 & 0.9777 & 0.9901 \\
+RandomForest & max_depth=2 & 2 & 0.9795 & 0.9827 &  1.0   \\
+RandomForest & max_depth=3 & 2 & 0.9795 & 0.9827 &  1.0   \\
+RandomForest & max_depth=5 & 2 & 0.9795 & 0.9827 &  1.0   \\
+RandomForest & max_depth=7 & 2 & 0.9795 & 0.9827 &  1.0   \\
+ SVC   &          & 3 & 0.9449 & 0.9523 & 0.9357 \\
+ KNN   & max_depth=2 & 3 & 0.2689 & 0.2084 & 0.1636 \\
+ KNN   & max_depth=3 & 3 & 0.3347 & 0.3286 & 0.2769 \\
+ KNN   & max_depth=5 & 3 & 0.9803 & 0.9833 & 0.9902 \\
+ kNN   & max_depth=7 & 3 & 0.9794 & 0.9826 & 0.9888 \\
+RandomForest & max_depth=2 & 3 & 0.9844 & 0.9869 & 0.9972 \\
+RandomForest & max_depth=3 & 3 & 0.9844 & 0.9869 & 0.9972 \\
+RandomForest & max_depth=5 & 3 & 0.9844 & 0.9869 & 0.9972 \\
+RandomForest & max_depth=7 & 3 & 0.9844 & 0.9869 & 0.9972 \\
+ SVC   &          & 4 & 0.9465 & 0.9537 & 0.9476 \\
+ KNN   & max_depth=2 & 4 & 0.2681 & 0.2025 & 0.1601 \\
+ KNN   & max_depth=3 & 4 & 0.3265 & 0.3146 & 0.2663 \\
+ KNN   & max_depth=5 & 4 & 0.9811 & 0.9839 & 0.9986 \\
+ kNN   & max_depth=7 & 4 & 0.9803 & 0.9832 & 0.9972 \\
+RandomForest & max_depth=2 & 4 & 0.9811 & 0.9840 &  1.0   \\
+RandomForest & max_depth=3 & 4 & 0.9811 & 0.9840 &  1.0   \\
+RandomForest & max_depth=5 & 4 & 0.9811 & 0.9840 &  1.0   \\
+RandomForest & max_depth=7 & 4 & 0.9811 & 0.9840 &  1.0   \\
