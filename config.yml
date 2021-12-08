@@ -1,0 +1,25 @@
+data:
+  raw_data_path: "login_shot.json"
+  #raw_data_path: "login.uniq.json"
+  attributes:
+    - "method"
+    - "format"
+    - "remote_ip"
+    - "ua"
+    - "meta.remote_ip"
+    - "action"
+    - "meta.user"
+    - "time"
+  rotule:
+    - format: '*/*'
+    - ua: "python-requests"
+Classify:
+  base_path: "out_svm"
+
+      #IntervaloIP   tempo médio (em segundos) de requisições feitas por um mesmo endereço IP;
+      #formatInvalido  valor 0 quando o atributo format é igual ao convencional (formatos conhecidos) e 1 para formatos diferentes do convencional;
+      #uaInvalido     valor 0 quando o atributo ua é igual ao convencional (conhecido) e 1 para ua diferente do convencional;
+      #typeMethod    valor 0 para método GET e 1 para POST;
+      #cgnat valor   0 para fora da faixa de endereço da cgnat (ip 100.64.*.*) e 1 para dentro;
+      #ipsDiferentes  valor 0 para remote\_ip = meta.remote\_ip e 1 para remote\_ip != meta.remote\_ip;
+      #metaUser        valor   0 atributo meta.user está presente e 1 se não está presente.
