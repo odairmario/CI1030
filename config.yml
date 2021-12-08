@@ -14,7 +14,9 @@ data:
     - format: '*/*'
     - ua: "python-requests"
 Classify:
-  base_path: "out_svm"
+  base_path: "./dataset.svm"
+  png_path: "pngs"
+
 
       #IntervaloIP   tempo médio (em segundos) de requisições feitas por um mesmo endereço IP;
       #formatInvalido  valor 0 quando o atributo format é igual ao convencional (formatos conhecidos) e 1 para formatos diferentes do convencional;
